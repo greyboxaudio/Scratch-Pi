@@ -19,6 +19,7 @@ sudo tee /etc/security/limits.d/audio.conf <<EOL
 @audio - memlock unlimited  # maximum locked-in-memory address space (KB)
 EOL
 # download and install xwax
+cd
 git clone https://xwax.org/devel/xwax.git
 cd xwax
 ./configure --prefix /usr --enable-alsa
