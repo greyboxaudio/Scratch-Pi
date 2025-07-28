@@ -2,9 +2,12 @@
 # update system and install dependencies
 sudo apt update
 sudo apt full-upgrade -y
-sudo apt install -y vim libmpg123-dev cpufrequtils build-essential cdparanoia mpg123 ffmpeg \
-build-essential libasound2-dev libasound2 libsdl-ttf2.0-dev libsdl1.2-dev libsdl2-ttf-dev \
-fonts-dejavu git screen bc bison flex libssl-dev make libc6-dev libncurses5-dev
+sudo apt install -y vim libmpg123-dev cpufrequtils build-essential \
+cdparanoia mpg123 ffmpeg build-essential \
+libasound2-dev libasound2 libsdl-ttf2.0-dev libsdl1.2-dev \
+libsdl2-ttf-dev fonts-dejavu git screen \
+bc bison flex libssl-dev \
+make libc6-dev libncurses5-dev
 sudo apt autoremove -y
 # add user to audio group
 sudo usermod -aG audio $USER
