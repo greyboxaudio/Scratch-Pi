@@ -171,12 +171,13 @@ static SDL_Color background_col = {41, 41, 41, 255},
     needle_col = {255, 255, 255, 255},
     artist_col = {16, 64, 0, 255},
     bpm_col = {64, 16, 0, 255},
+    //scope_col = {41,166,57,255},
     deck_col_bg = {0,0,0,255},
     library_col_bg = {0,0,0,255},
     scrollbar_col = {187,187,187,255},
     scrollbar_col_bg = {84,84,84,255},
-    search_col_bg = {153,153,153,255},
-    scope_col = {41,166,57,255};
+    search_col_bg = {153,153,153,255};
+
 
 static unsigned short *spinner_angle, spinner_size;
 
